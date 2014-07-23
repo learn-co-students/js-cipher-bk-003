@@ -5,7 +5,7 @@ level: advanced
 ---
 
 # Atbash Cipher
-## In honor of the legendary [Alan Turing](http://en.wikipedia.org/wiki/Alan_Turing) we're going to practice some decryption by creating our own cipher.  It won't be as amazing as the enigma machine, but we won't have to worry about Mr. Turing cracking it either. 
+In honor of the legendary [Alan Turing](http://en.wikipedia.org/wiki/Alan_Turing) we're going to practice some decryption by creating our own cipher.  It won't be as amazing as the enigma machine, but we won't have to worry about Mr. Turing cracking it either. 
 
 ## Background
 The Atbash cipher is a simple substitution cipher that relies on transposing all the letters in the alphabet such that the resulting alphabet is backwards. The first letter is replaced with the last letter, the second with the
