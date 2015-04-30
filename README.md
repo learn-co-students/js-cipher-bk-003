@@ -1,6 +1,6 @@
 ---
 tags: todo, arrays, objects
-languages: JavaScript
+languages: JavaScript, js
 level: advanced
 ---
 
@@ -15,7 +15,7 @@ second-last, and so on.
 
 An Atbash cipher for the Latin alphabet would be as follows:
 
-```plain
+```
 Plain:  abcdefghijklmnopqrstuvwxyz
 Cipher: zyxwvutsrqponmlkjihgfedcba
 ```
