@@ -1,9 +1,3 @@
----
-tags: todo, arrays, objects
-languages: JavaScript, js
-level: advanced
----
-
 # Atbash Cipher
 
 ## Background
