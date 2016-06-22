@@ -1,36 +1,36 @@
 describe("encode", function() {
   // http://en.wikipedia.org/wiki/Atbash
 
-  it("encodes no", function() {
+  xit("encodes no", function() {
     expect(atbash.encode('no')).toEqual('ml');
   });
 
-  it("encodes yes", function() {
+  xit("encodes yes", function() {
     expect(atbash.encode('yes')).toEqual('bvh');
   });
 
-  it("encodes OMG", function() {
+  xit("encodes OMG", function() {
     expect(atbash.encode('OMG')).toEqual('lnt');
   });
 
-  it("encodes O M G", function() {
+  xit("encodes O M G", function() {
     expect(atbash.encode('O M G')).toEqual('lnt');
   });
 
-  it("encodes long words", function() {
+  xit("encodes long words", function() {
     expect(atbash.encode('mindblowingly')).toEqual('nrmwy oldrm tob');
   });
 
-  it("encodes numbers", function() {
+  xit("encodes numbers", function() {
     expect(atbash.encode('Testing, 1 2 3, testing.'))
       .toEqual('gvhgr mt123 gvhgr mt');
   });
 
-  it("encodes sentences", function() {
+  xit("encodes sentences", function() {
     expect(atbash.encode('Truth is fiction.')).toEqual('gifgs rhurx grlm');
   });
 
-  it("encodes all the things", function() {
+  xit("encodes all the things", function() {
     expect(atbash.encode('The quick brown fox jumps over the lazy dog.'))
       .toEqual('gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt');
   });
